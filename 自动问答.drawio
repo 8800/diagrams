@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" modified="2023-05-18T03:03:39.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="2vW8cPwooIy2pblI3x6y" version="21.2.9" type="github">
+  <diagram name="第 1 页" id="S9G4fwOq39bnXNwEPULo">
+    <mxGraphModel dx="1434" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZCn_cijErCl1uZVfO6bf-2" target="ZCn_cijErCl1uZVfO6bf-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-2" value="本地资料库内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZCn_cijErCl1uZVfO6bf-4" target="ZCn_cijErCl1uZVfO6bf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-4" value="openai 向量化接口或者其他向量化接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZCn_cijErCl1uZVfO6bf-6" target="ZCn_cijErCl1uZVfO6bf-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-6" value="批量 内容片段+对应向量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZCn_cijErCl1uZVfO6bf-8" target="ZCn_cijErCl1uZVfO6bf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-8" value="输入内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZCn_cijErCl1uZVfO6bf-10" target="ZCn_cijErCl1uZVfO6bf-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-10" value="openai 向量化接口或者其他向量化接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZCn_cijErCl1uZVfO6bf-12" target="ZCn_cijErCl1uZVfO6bf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-12" value="拆分多个内容片段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZCn_cijErCl1uZVfO6bf-14" target="ZCn_cijErCl1uZVfO6bf-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-14" value="向量数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="409" as="sourcePoint" />
+            <mxPoint x="100" y="19" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="19" as="sourcePoint" />
+            <mxPoint x="260" y="19" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="408" as="sourcePoint" />
+            <mxPoint x="260" y="18" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="410" as="sourcePoint" />
+            <mxPoint x="260" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-19" value="本地资料内容预处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="114" y="19" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZCn_cijErCl1uZVfO6bf-21" target="ZCn_cijErCl1uZVfO6bf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-21" value="输入内容对应的向量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZCn_cijErCl1uZVfO6bf-23" target="ZCn_cijErCl1uZVfO6bf-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-23" value="与本地资料内容计算向量相似度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZCn_cijErCl1uZVfO6bf-25" target="ZCn_cijErCl1uZVfO6bf-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-25" value="查询最相似的片段，取前k个" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZCn_cijErCl1uZVfO6bf-26" value="带上提问内容及查询出来的相似内容片段作为prompt，使gpt基于提供的内容片段回答用户提问" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="650" width="350" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
