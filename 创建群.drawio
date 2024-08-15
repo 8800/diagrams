@@ -1,0 +1,16 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="第 1 页" id="N8gJjpWABis34RRHOpFT">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YvTaC3AN6e8b6Z0_ji8A-6" value="1、【通用】群名称有效性检查（长度限制、换行符替换、空格替换等）&lt;div&gt;2、&lt;span style=&quot;background-color: initial;&quot;&gt;【通用】&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;创建时的群人数检查（去掉人数限制）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;3、【通用】群名称敏感词检查&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="70" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YvTaC3AN6e8b6Z0_ji8A-8" value="1、【话题群】检查入参相关ext source flag等&lt;div&gt;2、【话题群】话题提醒开关&lt;/div&gt;&lt;div&gt;3、【话题群】话题描述、结论等敏感词检查&lt;/div&gt;&lt;div&gt;4、【话题群】取群用户作为话题参与人（根据配置决定小于多少人的群才添加）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="400" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
